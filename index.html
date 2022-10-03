@@ -62,9 +62,9 @@
 
     <!-- Main Heading -->
 
-    <section class="padding-y-lg margin-x-llg  product-main-info margin-x-llg  mobile_margin text-center"
+    <section class="padding-y-lg margin-x-llg  product-main-info margin-x-llg text-center"
       style="background-color: transparent;">
-      <img src="/assets/oribe.png">
+      <img class="top_image" src="/assets/oribe.png">
     </section>
 
     <section
@@ -72,8 +72,8 @@
       style="background-color: white;">
 
       <div class="container  text-center ">
-        <div class="text-component expression_text padding-top-md padding-top-sm@md">
-          <p class="line-height-inherit text-500 ">
+        <div class="text-component expression_text">
+          <p class="line-height-inherit text-500 letter-spacing-normal">
             Our iconic <em class="font-secondary">Dry Texturizing Spray</em> is just the beginning of your journey to
             becoming #OribeObsessed.
           </p>
@@ -82,7 +82,7 @@
 
       <div class="container  text-center ">
         <div class="text-component expression_text padding-top-md padding-top-sm@md">
-          <p class="line-height-inherit text-500">
+          <p class="line-height-inherit text-500 letter-spacing-normal">
             Experience more of our collection during your next professional service at one of our Oribe partner salons.
           </p>
         </div>
@@ -92,19 +92,19 @@
     <section class=" product-main-info margin-x-llg margin-bottom-md mobile_margin" style="background-color: white;">
 
 
-      <div class=" flex flex-column-reverse flex-row@md  justify-between " style="background-color: white;">
+      <div class=" flex   justify-between " style="background-color: white;">
 
-        <div class="width-50md padding-y-0@md padding-top-lg font-0">
-          <img class="width-100%" src="/assets/product1.png" alt="">
+        <div class="width-50%  font-0">
+          <img class="width-100% height-100%" src="/assets/product1.png" alt="">
         </div>
-        <div class="width-50md padding-y-0@md padding-top-lg font-0">
-          <img class="width-100%" src="/assets/product2.png" alt="">
+        <div class="width-50%  font-0">
+          <img class="width-100% height-100%" src="/assets/product2.png" alt="">
         </div>
       </div>
 
 
       <div class="padding-y-sm fancy-border product-main-info " style="background-color: #fffef2; ">
-        <div class="container text-center">
+        <div class=" text-center">
           <div class="margin-left-auto margin-right-auto max-width-sm text-center padding-x-md@sm">
             <p
               class="font-secondary letter-spacing-normal text-component margin-bottom-xxs main-heading line-height-xs">
@@ -114,22 +114,24 @@
             <div class="bordered_seprate margin_adj_1"></div>
           </div>
 
-          <div class="margin-left-auto margin-right-auto max-width-sm text-center padding-x-md@sm">
-            <p class=" margin-bottom-xs text-component third_heading  line-height-xs">The texturizing spray that started
-              it all and
-              does
-              it all.</p>
-          </div>
+          <div class="container">
+            <div class="margin-left-auto margin-right-auto max-width-sm text-center padding-x-md@sm">
+              <p class=" margin-bottom-xs@md margin-bottom-md text-component third_heading  line-height-xs">The
+                texturizing spray that started
+                it all and
+                does
+                it all.</p>
+            </div>
 
-          <div class="margin-left-auto margin-right-auto max-width-sm text-center padding-x-md@sm">
-            <p
-              class="font-secondary letter-spacing-normal text-component margin-bottom-xxs second_heading line-height-xs">
-              <em>Discover why
-                our #1 styling
-                product is sold every 90 seconds.</em>
-            </p>
+            <div class="margin-left-auto margin-right-auto max-width-sm text-center padding-x-md@sm">
+              <p
+                class="font-secondary letter-spacing-normal text-component margin-bottom-xxs second_heading line-height-xs">
+                <em>Discover why
+                  our #1 styling
+                  product is sold every 90 seconds.</em>
+              </p>
+            </div>
           </div>
-
         </div>
 
       </div>
@@ -137,12 +139,34 @@
     </section>
 
 
+
+    <!-- The Artwork -->
+    <section class=" margin-x-llg product-main-info margin-bottom-md mobile_margin" style="background-color: #fdf6f6;">
+      <div class="margin-bottom-xs@md position-relative fancy-border" style="font-size: 0 ;">
+
+        <video id="video1" width="100%" playsinline>
+          <source src="/assets/Oribe.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <!-- <div style="width:100%;height:0px;position:relative;padding-bottom:50%;"><iframe src="https://streamable.com/e/290w2u?nocontrols=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div> -->
+        <div
+          class="video-control position-absolute width-100% height-100% flex flex-center top-0 left-0 paly-btn cursor-pointer"
+          video="video1">
+          <img class="play-icon" video="video1" src="/assets/playicon.png" alt="">
+        </div>
+      </div>
+
+
+    </section>
+
+
+
     <section
-      class="padding-y-sm padding-x-md margin-x-llg fancy-border  product-main-info margin-x-llg margin-bottom-md mobile_margin"
+      class="padding-y-sm@md padding-y-md padding-x-md margin-x-llg fancy-border  product-main-info margin-x-llg margin-bottom-md mobile_margin"
       style="background-color: white;">
 
-      <div class="flex">
-        <div class="width-70% padding-right-xs">
+      <div class="flex flex-column-reverse flex-row@md">
+        <div class="width-70md padding-right-xs@md">
 
           <div class="margin-left-auto margin-right-auto max-width-sm">
             <p class="font-secondary margin-bottom-xxs main-heading line-height-xs"><em>Benefits</em>
@@ -176,33 +200,13 @@
 
         </div>
 
-        <div class="width-30% font-0">
+        <div class="width-30md font-0 gap_mobile">
           <img class="width-100%" src="/assets/product3.png" alt="">
         </div>
       </div>
 
 
     </section>
-
-    <!-- The Artwork -->
-    <section class=" margin-x-llg product-main-info margin-bottom-md mobile_margin" style="background-color: #fdf6f6;">
-      <div class="margin-bottom-xs@md position-relative fancy-border" style="font-size: 0 ;">
-
-        <video id="video1" width="100%" playsinline poster="/assets/thumbnail.jpg">
-          <source src="/assets/Oribe.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <!-- <div style="width:100%;height:0px;position:relative;padding-bottom:50%;"><iframe src="https://streamable.com/e/290w2u?nocontrols=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div> -->
-        <div
-          class="video-control position-absolute width-100% height-100% flex flex-center top-0 left-0 paly-btn cursor-pointer"
-          video="video1">
-          <img class="play-icon" video="video1" src="/assets/playicon.png" alt="">
-        </div>
-      </div>
-
-
-    </section>
-
 
 
     <section
@@ -229,11 +233,11 @@
     </section>
 
 
-    <section class="padding-y-sm padding-x-md margin-x-llg product-main-info  mobile_margin"
+    <section class="padding-y-sm@md padding-y-md padding-x-md margin-x-llg product-main-info  mobile_margin"
       style="background-color: #000000;">
 
 
-      <div class=" color-white  ">
+      <div class=" color-white list_links  ">
         <p
           class="text-uppercase text-center line-height-normal ITCCondensed text-500 letter-spacing-normal line-height-md ">
           dermatologist tested

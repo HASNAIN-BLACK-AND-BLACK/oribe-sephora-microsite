@@ -12240,11 +12240,15 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 	line-height: 34px ;
 	font-weight: 500;
 	margin-bottom: 5px;	
+	position: relative;
 	letter-spacing: normal;
+	padding-left: 20px ;
 }
 
-.product_item_content li span{
-	padding-left: 3px;
+.product_item_content li img{
+	position: absolute ;
+	left: 0;
+	top: 30% ;
 }
 
 .letter-spacing-normal
@@ -12268,11 +12272,20 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 	font-weight: 500;
 }
 
+
+.width-70md
+{
+	width:70% ;
+}
+.width-30md
+{
+	width:30% ;
+}
+
 @media (min-width: 64rem) {
 	.font-0 {
 		font-size: 0;
 	}
-
 	.width-50md {
 		width: 50%;
 	}
@@ -12289,6 +12302,20 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 @media (max-width: 63.938rem) {
 	.swiper-pagination {
 		bottom: -4px !important;
+	}
+
+	.gap_mobile
+	{
+		margin-bottom: 25px;
+	}
+	
+	.width-70md
+	{
+		width:100% ;
+	}
+	.width-30md
+	{
+		width:100% ;
 	}
 
 	.padding-y-llg {
@@ -12315,8 +12342,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 	.btn {
 		width: 100%;
-		max-width: 300px;
-		margin: auto;
 	}
 
 	.collaboration_date {
@@ -12332,9 +12357,30 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 
 @media (max-width: 600px) {
+
+	.product_item_content li {
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: 500;
+		margin-bottom: 5px;
+		letter-spacing: normal;
+	}
+
 	#mainContent {
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	.margin_adj_1
+	{
+		margin: 10px auto;
+	}
+
+	.third_heading,
+	.second_heading {
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: 500;
 	}
 
 	.main-heading {
@@ -12342,11 +12388,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 	}
 
 	.expression_text {
-		font-size: 16px;
+		font-size: 18px;
 	}
 
 	.body-text {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.large-heading {
@@ -12355,6 +12401,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 	.small-text {
 		font-size: 14px;
+	}
+
+	.list_links p 
+	{
+		font-size: 24px;
 	}
 
 	/* .swiper
@@ -12369,12 +12420,17 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 @media (max-width: 400px) {
 
+	.top_image
+	{
+		max-width: 250px;
+	}
+
 	.margin-bottom-25\@bsm {
 		margin-bottom: 26.6px;
 	}
 
 	img.play-icon {
-		max-width: 46px;
+		max-width: 70px;
 	}
 
 	.mobile_break {
