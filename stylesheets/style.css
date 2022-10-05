@@ -9302,7 +9302,7 @@ html:not(.js) .no-js\:is-hidden {
 	font-family: ITCDemi;
 	src: url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.eot);
 	src: url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.woff2) format("woff2"),
-		url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.woff) format("woff"),
+		url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.woff) format("woff"), 
 		url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.ttf) format("truetype"),
 		url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.svg) format("svg");
 	font-weight: 400;
