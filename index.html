@@ -265,9 +265,11 @@
         if (video.paused) {
           video.play();
           event.target.style.display = 'none';
+          video.controls = true;
         } else {
           video.pause();
           event.target.style.display = 'flex';
+          videocontrols = false;
         }
       })
     })
@@ -281,28 +283,35 @@
         if (video.paused) {
           video.play();
           event.target.parentElement.style.display = 'none';
+          video.controls = true;
 
         } else {
           video.pause();
           event.target.parentElement.style.display = 'flex';
+          videocontrols = false;
         }
       })
     })
     document.querySelectorAll('video').forEach(item => {
       item.addEventListener('pause', (event) => {
         console.log(1, event.target.parentElement.querySelector('.video-control'))
+        if(event.target.seeking) return ;
         event.target.parentElement.querySelector('.video-control').style.display = 'flex';
         event.target.controls = false;
+   
       });
     });
 
     document.querySelectorAll('video').forEach(item => {
       item.addEventListener('play', (event) => {
         console.log(2, event.target.parentElement.querySelector('.video-control'))
+        if(event.target.seeking) return ;
         event.target.parentElement.querySelector('.video-control').style.display = 'none';
         event.target.controls = true;
       });
     });
+
+      
   </script>
 
   <!-- Initialize Swiper -->
