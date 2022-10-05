@@ -12405,6 +12405,12 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 @media (max-width: 600px) {
 
+	.btn
+	{
+		height: 52px;
+		font-size: 20px;
+	}
+
 	.product_item_content li {
 		font-size: 16px;
 		line-height: 20px;

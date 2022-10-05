@@ -294,7 +294,6 @@
     })
     document.querySelectorAll('video').forEach(item => {
       item.addEventListener('pause', (event) => {
-        console.log(1, event.target.parentElement.querySelector('.video-control'))
         if(event.target.seeking) return ;
         event.target.parentElement.querySelector('.video-control').style.display = 'flex';
         event.target.controls = false;
@@ -304,7 +303,6 @@
 
     document.querySelectorAll('video').forEach(item => {
       item.addEventListener('play', (event) => {
-        console.log(2, event.target.parentElement.querySelector('.video-control'))
         if(event.target.seeking) return ;
         event.target.parentElement.querySelector('.video-control').style.display = 'none';
         event.target.controls = true;
