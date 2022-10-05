@@ -9288,12 +9288,23 @@ html:not(.js) .no-js\:is-hidden {
 }
 
 @font-face {
-	font-family: ITCDemi;
+	font-family: ITCDemi-italic;
 	src: url(/fonts/ITCAvantGardeStd-DemiCnObl.eot);
 	src: url(/fonts/ITCAvantGardeStd-DemiCnObl.woff2) format("woff2"),
 		url(/fonts/ITCAvantGardeStd-DemiCnObl.woff) format("woff"),
 		url(/fonts/ITCAvantGardeStd-DemiCnObl.ttf) format("truetype"),
 		url(/fonts/ITCAvantGardeStd-DemiCnObl.svg) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: ITCDemi;
+	src: url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.eot);
+	src: url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.woff2) format("woff2"),
+		url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.woff) format("woff"),
+		url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.ttf) format("truetype"),
+		url(/fonts/AnyConv.com__ITCAvantGardeStd-Demi.svg) format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
