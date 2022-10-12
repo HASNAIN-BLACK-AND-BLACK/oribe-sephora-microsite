@@ -12222,6 +12222,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 	color: #000;
 }
 
+.dry_text_spray
+{
+	font-size: 38px;
+}
+
 .small-text {
 	font-size: 24px;
 	font-size: 16px;
@@ -12383,6 +12388,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 	.body-text {
 		font-size: 22px;
 	}
+	.dry_text_spray
+	{
+		font-size: 26px;
+	}
+
 
 	.large-heading {
 		font-size: 96px;
@@ -12463,6 +12473,12 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 	.body-text {
 		font-size: 16px;
 	}
+
+	.dry_text_spray
+	{
+		font-size: 20px;
+	}
+
 
 	.large-heading {
 		font-size: 36px;
